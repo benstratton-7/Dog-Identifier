@@ -21,8 +21,6 @@ def preprocess_image(im_path, b_box):
     cropped = im.crop((xmin, ymin, xmax, ymax))
     neww, newh = (224, 224)
     new_im = cropped.resize((neww, newh))
-    new_im.show()
-    new_im.close()
     return np.array(new_im)
 
 # Initialize empty lists to store images and labels

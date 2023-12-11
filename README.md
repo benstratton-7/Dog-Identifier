@@ -1,2 +1,2 @@
 # Dog-Identifier
-A neural net that can guess what dog breed by looking at a picture
+A neural net that can guess a dog's breed by looking at a picture of it

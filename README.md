@@ -1,7 +1,5 @@
 # Dog-Identifier
-A neural net that can guess a dog's breed by looking at a picture of it
+A neural net that can guess a dog's breed by looking at a picture of it.
 
 ## To Do
-- begin work on NN
-    - choose activation function (start w relu)
-    - figure out wieghts and biases (hidden layers == 3)
+Design propogation steps and work out layers, neurons, etc

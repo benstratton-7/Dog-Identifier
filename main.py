@@ -8,10 +8,12 @@ image_channels = 3
 input_size = process_data.size_of_processed_image * process_data.size_of_processed_image * image_channels
 hidden_size = 224
 output_size = 2
+layers = 3
 
 weights_hidden = np.random.randn(input_size, hidden_size)
 
-print(weights_hidden)
+process_data.process_data()
+all_data = process_data.images_data
 
 #activation functions
 def sigmoid(x):
